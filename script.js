@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "Best of Me", filePath: "songs/1.mp3", coverPath: "/neffex images.jpg" },
-    { songName: "Grateful", filePath: "songs/2.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "cold", filePath: "songs/3.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "Rumors", filePath: "songs/4.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "fight back", filePath: "songs/5.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "Careless", filePath: "songs/2.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "failure", filePath: "songs/2.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "destiny", filePath: "songs/2.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "Light it up", filePath: "songs/2.mp3", coverPath: "covers/neffex images.jpg" },
-    { songName: "Bros B4", filePath: "songs/4.mp3", coverPath: "covers/neffex images.jpg" },
+    { songName: "Best of Me", filePath: "1.mp3", coverPath: "neffex images.jpg" },
+    { songName: "Grateful", filePath: "2.mp3", coverPath: "neffex images.jpg" },
+    { songName: "cold", filePath: "3.mp3", coverPath: "neffex images.jpg" },
+    { songName: "Rumors", filePath: "4.mp3", coverPath: "neffex images.jpg" },
+    { songName: "fight back", filePath: "5.mp3", coverPath: "neffex images.jpg" },
+    { songName: "Careless", filePath: "6.mp3", coverPath: "neffex images.jpg" },
+    { songName: "failure", filePath: "7.mp3", coverPath: "neffex images.jpg" },
+    { songName: "destiny", filePath: "8.mp3", coverPath: "neffex images.jpg" },
+    { songName: "Light it up", filePath: "9.mp3", coverPath: "neffex images.jpg" },
+    { songName: "Bros B4", filePath: "10.mp3", coverPath: "neffex images.jpg" },
 ]
 
 songItems.forEach((element, i) => {
